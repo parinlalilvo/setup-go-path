@@ -3,7 +3,8 @@
     - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
     - brew install zsh
  - Download go latest version (https://go.dev/dl/)
-   - ![Screen Shot 2565-10-19 at 15 14 27](https://user-images.githubusercontent.com/2121788/196635356-4f1c21f1-c40b-45c4-95dc-d40acb454591.png)
+   - ![Screen Shot 2565-10-19 at 15 14 27](https://user-images.githubusercontent.com/2121788/196663785-27ac47a9-f25b-4e58-aed2-2fe13284a55c.png)
+
    - Extract zip then rename with version e.g.(go-1.19.2) then move folder to `Users/$name/sdk/go-sdk/`
    - ![Screen Shot 2565-10-19 at 15 16 01](https://user-images.githubusercontent.com/2121788/196635606-9ae24a51-392a-4b19-b668-4875afa52409.png)
    - `$ cd /Users/parin.lalilvo/repositories/sdk/go-sdk`
