@@ -62,3 +62,25 @@
       PKG_CONFIG="pkg-config"
       GOGCCFLAGS="-fPIC -arch x86_64 -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/xh/26kgnp2d1s55q1cc0b1fw_g40000gn/T/go-build3902625030=/tmp/go-build -gno-record-gcc-switches -fno-common"
       ```
+
+## How to debug go with vscode
+
+  - `$ brew install delve`
+
+  - `$ touch .vscode/launch.json`
+
+  - `$ vim .vscode/launch.json`
+    ```json 
+    {
+      "version": "0.2.0",
+      "configurations": [
+          {
+              "name": "Launch Package",
+              "type": "go",
+              "request": "launch",
+              "mode": "auto",
+              "program": "${workspaceFolder}/cmd/api",
+              "envFile": "${workspaceFolder}/.env",
+          }
+      ]
+    }
