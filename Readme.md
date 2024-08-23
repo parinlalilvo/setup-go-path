@@ -16,7 +16,7 @@
   * `$ ln -s go-1.19.2 go`
   * `$ ll`
   * ![Screen Shot 2565-10-19 at 15 17 45](https://user-images.githubusercontent.com/2121788/196635980-fcdebfc6-ae9f-4277-b13a-4b612afa3ba5.png)  
-* Git clone project `git clone git@github.com:nocnoc-thailand/setup-go-path.git`
+* Git clone project `git clone git@github.com:parinlalilvo/setup-go-path.git`
 * Go to directiories: `$ cd setup-go-path`
 * `$ ./setup.sh`
 * Done
