@@ -2,7 +2,7 @@
 
 name="$USER"
 
-export GOROOT=/Users/$name/sdk/go-sdk/go
+export GOROOT=/Users/$name/Repositories/sdk/go-sdk/go
 export GOPATH=~/go
 export GOBIN=$GOPATH/bin
 
